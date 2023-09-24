@@ -4,13 +4,35 @@ body {
   margin: 0;
 }
 
-h1 {
-  color: red;
+header{
+  text-align: center;
 }
 
+figure{
+  text-align: center;
+}
 
+figcaption{
+  font-size: 0.5em;
+}
 
+nav a{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: pink;
+}
 
-<div>
-  <img src="your-image.jpg">
-</div>
+#featured-property p{
+  width: 800px;
+  text-align: center;
+  margin:auto;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+#details > div{
+  float: left;
+  background-color: pink;
+  width: 25%;
+  text-align: center;
+}
